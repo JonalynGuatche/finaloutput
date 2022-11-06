@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css
+">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css
+">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/6a79530112.js
+" crossorigin="anonymous"></script>
+  <!-- Material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons
+" rel="stylesheet">
+  <link rel="stylesheet" href="final.css">
+  <title>Design & Build</title>
+</head>
+<body>
+<nav class="green lighten-2">
+    <div class="container">
+        <div class="nav-wrapper ">
+        <a href="index.html" data-target="slide-out" class="sidenav-trigger">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="center">
+          <li class="active">
+            <a href="index.html" class="black-text darken-5">Home</a>
+          </li>
+          <li>
+            <a href="ourservices.html" class="black-text darken-5">Our Services</a>
+          </li>
+          <li>
+            <a href="aboutus.html" class="black-text darken-5">Gallery</a>
+          </li>
+          <li>
+            <a href="contactus.html" class="btn green modal-trigger black-text waves-effect pulse">Contact Us</a>
+          </li>
+          <li class="right">
+          <a href="https://www.facebook.com/PabyMaby/" target="">
+          <i class=" fab fa-facebook blue-text text-darken-2" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="right">
+          <a href="https://www.instagram.com/pabyjessie/?igshid=YmMyMTA2M2Y%3D&fbclid=IwAR01u_TZHtdkFjLZBgUdQBwvpLMSyzYoroJ5zQEi70zpMUHFxo9VIx0CT5U/" target="">
+          <i class=" fab fa-instagram red-text" aria-hidden="true">
+          </i>
+          </a>
+        </li>
+        </ul>
+        </div>
+    </div>
+ </nav>
+ <section class="section section-logo">
+  <div class="container center">
+    <h3><b>J4G Design & Build</b></h3>
+  </div>
+ </section>
+    <!--Header-->
+<header class="main-header">
+  <section class="container">
+    <div class="container">
+      <div class="row">
+        <br><br>
+        <div class="col s12 m5">
+         <h3>Design With Imagination</h3>
+         <p><b>It refers to creating and manipulating mental images within our imagination that can then be transformed into physical objects.</b>
+         </p>
+        </div>
+        <div class="col s12 m4 offset-m3">
+         <h3>Build with Quality</h3>
+          <p><b>The best way to continuous Improvement, teamwork, consistency, measurement and analysis, and training.</b>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class=" center">
+      <h2><b>We design it.</b></h2>
+      <h2><b>We build it.</b></h2>
+      <h2><b>You love it.</b></h2>
+    </div>
+  </section>
+</header>
+<!--Sidenav Structure-->
+<ul id="slide-out" class="sidenav">
+    <h4 class="green-text text-darken-4"><b>J4G Design & Build</b></h4>
+    <div class="divider"></div>
+    <li class="active">
+      <a href="index.html">Home</a>
+    </li>
+    <li>
+      <a href="ourservices.html">Our Services</a>
+    </li>
+    <li>
+      <a href="aboutus.html">Gallery</a>
+    </li>
+    <li>
+      <a href="contactus-modal" class="btn yellow modal-trigger green-text waves-effect pulse">Contact Us</a>
+    </li>
+</ul>
+<!--Footer-->
+<footer class="page-footer green lighten-2 ">
+  <div class="container">
+    <div class="row">
+      <div class="col l4 offset-l2 s12">
+        <h5 class="black-text">Links</h5>
+        <ul>
+          <li><a class="black-text text-lighten-3" href="index.html">Home</a></li>
+          <li><a class="black-text text-lighten-3" href="ourservices.html">Our Services</a></li>
+          <li><a class="black-text text-lighten-3" href="aboutus.html">Gallery</a></li>
+          <li><a class="black-text text-lighten-3" href="contactus.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright deep-purple">
+    <div class="container center">
+    © 2022 Copyright J4G Design & Build
+    </div>
+  </div>
+</footer>
+
+  <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js
+" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js
+"></script>
+<script>
+  $(document).ready(function(){
+    // init Sidenav
+    $('.sidenav').sidenav({
+      edge:'right'
+    });
+    //Init Modal
+    $('.modal').modal();
+  });   
+</script>
+</body>
+</html>
